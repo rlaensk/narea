@@ -1,0 +1,44 @@
+#wrap {
+  width: 100vw;
+  height: auto;
+}
+#wrap header {
+  width: 100%;
+  height: 50px;
+}
+#wrap header #noti {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+#wrap header #noti .hiddenNoti {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#wrap header #noti .hiddenNoti a {
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+#wrap header #noti .hiddenNoti a img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+#wrap header #noti .hiddenNoti .noti2 {
+  position: absolute;
+  bottom: 0;
+}
